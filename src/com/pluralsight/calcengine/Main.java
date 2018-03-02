@@ -11,7 +11,6 @@ public class Main {
 
 		for(int i = 0; i <opCodes.length; i++) {
 			switch(opCodes[i]) {
-
 				case 'a':
 					results[i] = leftVals[i] + rightVals[i];
 					break;
